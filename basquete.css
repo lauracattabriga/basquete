@@ -1,0 +1,119 @@
+body{
+    background-color: antiquewhite;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+p{
+    text-align: justify;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0;
+    margin-bottom: 0 auto;
+}
+img{
+    margin: 0 auto;
+    display: block;
+}
+.regras ul li{
+    list-style: circle;
+    text-align: justify;
+    font-size: 25px;
+    margin-left: 120px;
+}
+/*menu*/
+.cabecalho {
+    background: linear-gradient(to top, #e74514 0%, #e6a732  100%);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.cabecalho a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.cabecalho ul {
+    list-style: none;
+    text-decoration: none;
+}
+.cabecalho .logo {
+    width: 65px;
+}
+.cabecalho .menu{
+    display: flex;
+    align-items: rigth;
+    height: 100%;
+}
+.cabecalho nav li a {
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+.cabecalho nav li a:hover {
+    background-color: rgba(255, 145, 0, 0.801);
+}
+/*slider das bolas*/
+
+.slider img{
+    width: 250px;
+    height: 250px;
+}
+.slider{
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+.slider li{
+    list-style: none;
+    position: absolute;
+}
+.slider img{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.slider input{
+    display: none;
+}
+.slider label{
+    background-color: black;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+/*RODAPE*/
+
+footer{
+    background: linear-gradient(to top, #e74514 20%, #e6a732 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: absolute low;
+}
